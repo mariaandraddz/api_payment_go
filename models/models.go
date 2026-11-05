@@ -1,12 +1,13 @@
 package models
 
 const (
-	REVERSED    = "CANCELLED"
-	AUTHORIZED  = "AUTHORIZED"
-	CLEARED     = "CLEARED"
-	SETTLED     = "SETTLED"
-	NOT_CLEARED = "NOT CLEARED"
-	REFUNDED    = "REFUNDED"
+	NotAuthorize = "NotAuthorize"
+	REVERSED     = "CANCELLED"
+	AUTHORIZED   = "AUTHORIZED"
+	CLEARED      = "CLEARED"
+	SETTLED      = "SETTLED"
+	NOT_CLEARED  = "NOT CLEARED"
+	REFUNDED     = "REFUNDED"
 
 	ProcessStatusCompleted  = "COMPLETED"
 	ProcessStatusFailed     = "FAILED"

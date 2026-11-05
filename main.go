@@ -8,6 +8,7 @@ import (
 func main() {
 	router := gin.Default()
 	router.GET("/health", healthcheck.Health)
+	router.POST("/authorize")
 
 	router.Run(":8080")
 }
