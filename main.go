@@ -4,6 +4,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/mariaandraddz/api-payment_go/handlers"
 	"github.com/mariaandraddz/api-payment_go/healthcheck"
+	"github.com/mariaandraddz/api-payment_go/observability"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 func main() {
